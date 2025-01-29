@@ -22,26 +22,6 @@
                 width: 50%;  /* Or another percentage or fixed width */
             }
         }
-        textarea {
-            width: 50%; /* Makes the textarea take full width of its container */
-            box-sizing: border-box; /* Includes padding and border in the element's total width and height */
-            resize: vertical; /* Allows vertical resizing only */
-            max-width: 600px; /* Optional max-width for larger screens */
-            margin: 10px auto; /* Center the text area */
-            display: block; /* makes it a block element */
-        }
-
-        /* Optional: Styles for the form container if needed */
-        .form-container {
-            max-width: 600px;
-            margin: 0 auto; /* Center the form */
-        }
-        @media (max-width: 50px) {
-            textarea {
-                font-size: 14px; /* Adjust font size if needed */
-            }
-        }
-
 
 
         /* Other styles ... */
@@ -128,7 +108,7 @@ One day, I was running home. Suddenly, I found a weird lizard!  I hate lizards! 
         </div>
         <label for="message">Message</label>
         <br>
-        <textarea name="Message" id="message" rows="10" cols="15" placeholder="Type your Message Here..."></textarea>
+        <textarea name="Message" id="message" rows="10" cols="25" placeholder="Type your Message Here..."></textarea>
         <br>
         <button type="submit">Submit</button>
     </form>
